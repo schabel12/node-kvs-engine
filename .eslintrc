@@ -1,0 +1,12 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:react/recommended"],
+    "plugins": ["json", "prettier", "mocha", "react"],
+    "parser": "babel-eslint",
+    "rules": {
+      "mocha/no-exclusive-tests": "error",
+      "prettier/prettier": "error",
+      "object-curly-newline": ["error", { "multiline": true, "consistent": true }],
+      "max-len": ["error", { "code": 80 }]
+    }
+  }
+  
